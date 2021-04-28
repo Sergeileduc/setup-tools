@@ -2,7 +2,8 @@
 
 sudo apt install powerline python3-powerline-gitstatus
 
-ln -s $(pwd)/powerline/ $HOME/.config/powerline
+# ln -s $(pwd)/powerline/ $HOME/.config/powerline
+cp -R $(pwd)/powerline/ $HOME/.config/powerline
 
 echo "# Powerline configuration
 if [ -f /usr/share/powerline/bindings/bash/powerline.sh ]; then
